@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<button onclick="myFunction()">Reverse the Array below please!</button>
+
+
+<p id="joshua">
+</p>
+
+<script>
+var myArray = ["Derek", "Peter", "Phune", "Joshua"];
+
+document.getElementById("joshua").innerHTML = myArray;
+
+function myFunction() {
+    myArray.reverse();
+    document.getElementById("joshua").innerHTML = myArray;
+}
+</script>
+
+</body>
+</html>
